@@ -78,9 +78,9 @@ d: down
 l: left
 r: right
 a: normal
-b: special
+b: dash/special
 y: jump
-s: shield
+s: brake/airdodge
 n: no input (don't use alongside other characters)
 ```
 
@@ -137,7 +137,19 @@ Records an input sequence
 
 Notes:
 - This command is only meant to be used while in debug mode, in frame advance mode, using the keyboard to record inputs
-- [overwrite] is 0 by default
+- This command only accepts the following inputs:
+```
+up arrow: right
+down arrow: right
+left arrow: right
+right arrow: right
+a: normal
+b: dash/special
+y: jump
+s: brake/airdodge
+f: frame advance
+```
+- [overwrite] is 0 by default, which does not overwrite the current loaded inputs, but rather extends it
 
 *Examples*:
 ```
