@@ -170,6 +170,8 @@ insider knowledge this command is so useful
 
 # Other
 
+For leaderboard integrity reasons, please don't use this without moving ``steam_api64.dll`` and ``Steamworks_x64.dll`` out of ``steamapps/common/ENTROPOLY``
+
 I included ``test_delay.tas`` as a 2-minute long control for how much delay your machine may add. I recommend running it to see when it starts desyncing, since it might be different for every machine.
 
 Feel free to edit the code to your preference, or reach out to me on discord if you have ideas to improve on this or run into issues. It's pretty barebones for now (cli lol) and i have some ideas of things to add, but maybe you have some too.
