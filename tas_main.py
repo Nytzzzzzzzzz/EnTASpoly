@@ -234,7 +234,7 @@ while True:
             case 'record':
                 try:
                     tas.record(int(a[1]))
-                except:
+                except IndexError:
                     tas.record()
             case 'exit':
                 break
