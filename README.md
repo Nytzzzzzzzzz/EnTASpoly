@@ -139,9 +139,9 @@ Notes:
 - This command is only meant to be used while in debug mode, in frame advance mode, using the keyboard to record inputs
 - This command only accepts the following inputs:
 ```
-up arrow: right
-down arrow: right
-left arrow: right
+up arrow: up
+down arrow: down
+left arrow: left
 right arrow: right
 a: normal
 b: dash/special
